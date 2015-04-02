@@ -1,0 +1,36 @@
+gcm:
+    path:  /index/{name}
+    defaults: { _controller: dfgcmBundle:Default:index }
+    
+gcm_push:
+    path:  /admin/push/
+    defaults: { _controller: dfgcmBundle:Default:push }
+    
+gcm_register:
+    path:  /register/
+    defaults: { _controller: dfgcmBundle:Default:register }
+
+apns_register:
+    path:  /apnsregister/
+    defaults: { _controller: dfgcmBundle:Default:apnsRegister }
+    
+apns_push:
+    path:  /admin/apnspush/
+    defaults: { _controller: dfgcmBundle:Default:apnsPush }    
+    
+benchmark:
+  path: /bench/
+  defaults: { _controller: dfgcmBundle:Default:bench }
+
+
+upload:
+  path: /upload/
+  defaults: { _controller: dfgcmBundle:Default:upload}
+  
+update:
+   path: /update/
+   defaults: {_controller:dfgcmBundle:Default:update}
+   
+updateavailable:
+   path: /updateavailable/
+   defaults: {_controller:dfgcmBundle:Default:updateavailable}

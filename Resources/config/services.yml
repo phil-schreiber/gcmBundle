@@ -1,0 +1,7 @@
+parameters:
+#    dfgcm.example.class: df\gcmBundle\Example
+
+services:
+#    dfgcm.example:
+#        class: %dfgcm.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
